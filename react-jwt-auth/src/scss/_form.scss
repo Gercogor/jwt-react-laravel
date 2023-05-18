@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 20px;
+  &_button {
+    outline: none;
+    color: black;
+    width: 100%;
+    height: 26px;
+  }
+  &_input {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    input {
+      font-size: 16px;
+    }
+  }
+}
+
+.error {
+  color: red;
+}

@@ -1,0 +1,11 @@
+@import "../../scss/button";
+
+.public {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  div {
+    display: flex;
+    justify-content: space-around;
+  }
+}
